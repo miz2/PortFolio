@@ -1,0 +1,81 @@
+.mask {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.into-img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.mask::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.8;
+}
+
+.hero {
+    height: 100%;
+    width: 100%;
+}
+
+.hero .content {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    padding-top: 3rem; 
+}
+
+.hero .content h1 {
+    font-size: 4rem;
+    padding: 0.6rem 0 1.5rem;
+    font-weight: bold; 
+}
+
+.hero .content p {
+    font-size: 1.4rem;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin-bottom: 2rem; 
+}
+
+.hero .content .btn {
+    padding: 12px 32px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    background: rgb(248, 217, 15);
+    color: #222;
+    border: 1px solid #fff;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+
+.hero .content .btn-light {
+    background: transparent;
+    color: white;
+}
+
+.hero .content .btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+}
+
+@media screen and (max-width: 640px) {
+    .hero .content h1 {
+        font-size: 3rem;
+    }
+    .hero .content p {
+        font-size: 1.2rem;
+    }
+}

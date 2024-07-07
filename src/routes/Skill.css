@@ -1,0 +1,68 @@
+.skill-content {
+  max-width: 1140px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.skill-content h2 {
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  color: #333;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+  padding: 0 1rem;
+}
+
+.skill-column {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.skill-column h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #007bff; /* Change this to the color from your screenshot if different */
+}
+
+.skill-column ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skill-column ul li {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  color: #666;
+  position: relative;
+  padding-left: 20px;
+}
+
+.skill-column ul li::before {
+  content: '\2022';
+  position: absolute;
+  left: 0;
+  color: #f39c12; /* Use the bullet color from your screenshot */
+  font-weight: bold;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 640px) {
+  .skill-content {
+    padding: 1rem;
+  }
+
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+}
