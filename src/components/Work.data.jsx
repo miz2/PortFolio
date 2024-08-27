@@ -7,15 +7,15 @@ const projectCardData = [
         imgsrc: CockTail,
         title: "The CockTail DB",
         text: "Find your favorite cocktail details and explore a wide range of cocktail recipes. This application allows users to search for various cocktails, view detailed information about each, and discover new favorites. Whether you're a cocktail enthusiast or a casual drinker, this app provides a comprehensive cocktail database at your fingertips.",
-        view: "https://github.com/miz2/TheCockTailStore",
-        source: "https://thecocktailstore.azurewebsites.net/"
+        source: "https://github.com/miz2/TheCockTailStore",
+        view: "https://thecocktailstore.azurewebsites.net/"
     },
     {
         imgsrc: Portfolio,
         title: "Crafting Digital Experiences: Showcasing Creative Solutions and Innovations",
         text: "Welcome to my portfolio! Dive into my digital journey, where you'll find a collection of captivating projects and innovative solutions. From web design to software development, each project reflects my commitment to creating memorable digital experiences. Explore my work and see how I bring creative ideas to life. Let's embark on this exciting journey together!",
         view: "",
-        source: ""
+        source: "https://github.com/miz2/PortFolio"
     },
     {
         imgsrc: Drum,

@@ -10,8 +10,8 @@ const Card = (props) => {
       <div className="pro-details">
         <p>{props.text}</p>
         <div className="pro-btns">
-          <a href={props.view} className="btn">View</a>
-          <a href={props.source} className="btn">Source</a> 
+          <a href={props.view} className="btn" target='_blank'>View</a>
+          <a href={props.source} className="btn" target='_blank'>Source</a> 
         </div>
       </div>
     </div>

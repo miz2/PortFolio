@@ -21,11 +21,23 @@
 
 .nav-menu li {
     padding: 0 1rem;
+    display: flex;
+    align-items: center;
 }
 
 .nav-menu li a {
     font-size: 1.2rem;
     font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu li a:hover {
+    color: #0073b1; /* LinkedIn color for LinkedIn icon */
+}
+
+.nav-text {
+    margin-left: 0.5rem;
 }
 
 .hamburger {
@@ -58,6 +70,10 @@
 
     .nav-menu li a {
         font-size: 2rem;
+    }
+
+    .nav-text {
+        margin-left: 1rem;
     }
 
     .hamburger {

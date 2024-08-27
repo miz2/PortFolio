@@ -27,12 +27,12 @@ const Footer = () => {
             I'm excited to innovate and contribute to the tech industry.
           </p>
           <div className='social'>
-            <a href="https://www.linkedin.com/in/mizaan-ur-rehman-278706249/" target="_blank" rel="noopener noreferrer">
+            {/* <a href="https://www.linkedin.com/in/mizaan-ur-rehman-278706249/" target="_blank" rel="noopener noreferrer">
               <FaLinkedin size={20} style={{ color: "#fff", marginRight: "2rem" }} />
             </a>
             <a href="https://github.com/miz2" target="_blank" rel="noopener noreferrer">
               <FaGithub size={20} style={{ color: "#fff", marginRight: "2rem" }} />
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
